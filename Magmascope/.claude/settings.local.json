@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($dirs = Get-ChildItem -Path 'C:\\\\Users\\\\Tudor\\\\Desktop\\\\Magmascope\\\\magmascope\\\\src\\\\' -Force -Recurse -Directory; $dirs | ForEach-Object { $_.FullName })",
+      "PowerShell(git *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(sed -n '1583,7962p' \"/c/Users/Tudor/Desktop/Magmascope/volcano-globe \\(7\\).html\")",
+      "Read(//tmp/**)",
+      "Bash(node --check /tmp/_volcano_script.js)"
+    ]
+  }
+}
